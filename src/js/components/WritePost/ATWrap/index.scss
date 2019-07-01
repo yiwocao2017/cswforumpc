@@ -1,0 +1,39 @@
+.at-wrap {
+    max-width: 404px;
+    display: inline-block;
+    padding: 20px 10px 10px 20px;
+    position: relative;
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 20px 1px rgba(0,0,0,0.2);
+
+    .at-user-item {
+        float: left;
+        width: 74px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        cursor: pointer;
+
+        &:hover{
+            color: #db4528;
+        }
+
+        .at-user-photo {
+            height: 64px;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .at-user-nickname {
+            text-align: center;
+            padding-top: 4px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+}

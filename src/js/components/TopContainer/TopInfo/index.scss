@@ -1,0 +1,93 @@
+.top-container {
+    background: #f5f5f5;
+    position: relative;
+    width: 100%;
+    min-width: 1000px;
+    top: 0;
+    left: 0;
+    height: 36px;
+    line-height: 36px;
+    border-bottom: 1px solid #eee;
+    z-index: 1000;
+
+    .top-title {
+        font-size: 14px;
+        color: #4d4d4d;
+    }
+
+    .top-search-container {
+        display: inline-block;
+        position: absolute;
+        top: 4px;
+        right: 300px;
+
+        .top-sResult {
+            width: 356px;
+            margin-top: 4px;
+            background-color: #fff;
+            box-shadow: 0 1px 6px rgba(0,0,0,.2);
+            border-radius: 4px;
+            z-index: 1050;
+            overflow: auto;
+            outline: none;
+
+            .top-user-result {
+                max-height: 320px;
+
+                li {
+                    height: 60px;
+                    display: block;
+                    padding: 6px;
+
+                    &.clearfix {
+                        cursor: pointer;
+
+                        &:hover {
+                            background-color: #fcf0ee;
+                        }
+                    }
+
+                    &.no-result {
+                        line-height: 48px;
+                        text-align: center;
+                    }
+
+                    .top-uAvatar {
+                        height: 100%;
+                        width: 48px;
+                        vertical-align: middle;
+                        display: inline-block;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+
+                    .top-uNickname {
+                        display: inline-block;
+                        width: 276px;
+                        padding-left: 10px;
+                        vertical-align: middle;
+                        line-height: 1.4;
+                    }
+                }
+            }
+        }
+    }
+
+    .top-right-user {
+        .top-amount {
+            padding-right: 30px;
+
+            span {
+                color: #db4528;
+            }
+        }
+
+        .top-nickname {
+            cursor: pointer;
+            color: #db4528;
+        }
+    }
+}

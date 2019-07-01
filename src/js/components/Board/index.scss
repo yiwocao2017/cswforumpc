@@ -1,0 +1,40 @@
+.board-container {
+    .ant-table {
+        color: #323232;
+
+        .board-post-title {
+            color: #323232;
+            font-size: 14px;
+            line-height: 1.4;
+            word-break: break-word;
+        }
+
+        .ant-table-thead {
+            tr th {
+                white-space: nowrap;
+            }
+        }
+    }
+
+    > .ant-breadcrumb {
+        padding: 20px 0;
+    }
+
+    > .ant-btn {
+        margin-bottom: 30px;
+    }
+
+    tbody tr {
+        cursor: pointer;
+    }
+
+    .title-icon {
+        vertical-align: text-top;
+        margin-right: 10px;
+
+        &.jing-icon {
+            width: 20px;
+            margin-top: -0.5px;
+        }
+    }
+}

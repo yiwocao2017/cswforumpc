@@ -1,0 +1,450 @@
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+a,
+body {
+  color: #464646;
+}
+
+a:focus {
+  text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+html body {
+  line-height: 1;
+  background-color: #fff !important;
+  font-family: Microsoft YaHei, '宋体', Tahoma, Arial, sans-serif;
+  height: auto;
+  margin-bottom: 100px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  height: auto;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.t-3dot {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.twoline-ellipsis {
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.tl {
+  text-align: left;
+}
+
+.tc {
+  text-align: center;
+}
+
+.tr {
+  text-align: right;
+}
+
+.p-fixed {
+  position: fixed;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.border-box {
+  box-sizing: border-box;
+}
+@keyframes loadingCircle {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.global-loading-icon {
+  background: url('../images/loading1.png') no-repeat;
+  animation: loadingCircle 1.2s infinite linear;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-size: 20px;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+.post-container,
+.write-container,
+.write-container1 {
+  .face {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    -webkit-background-size: 20px auto;
+    background-size: 20px auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    &.face_1 {
+      background-image: url("../images/face-1.png");
+    }
+
+    &.face_2 {
+      background-image: url("../images/face-2.png");
+    }
+
+    &.face_3 {
+      background-image: url("../images/face-3.png");
+    }
+
+    &.face_4 {
+      background-image: url("../images/face-4.png");
+    }
+
+    &.icon_0 {
+      background-position: 50% 0;
+    }
+
+    &.icon_1 {
+      background-position: 50% -20px;
+    }
+
+    &.icon_2 {
+      background-position: 50% -40px;
+    }
+
+    &.icon_3 {
+      background-position: 50% -60px;
+    }
+
+    &.icon_4 {
+      background-position: 50% -80px;
+    }
+
+    &.icon_5 {
+      background-position: 50% -100px;
+    }
+
+    &.icon_6 {
+      background-position: 50% -120px;
+    }
+
+    &.icon_7 {
+      background-position: 50% -140px;
+    }
+
+    &.icon_8 {
+      background-position: 50% -160px;
+    }
+
+    &.icon_9 {
+      background-position: 50% -180px;
+    }
+
+    &.icon_10 {
+      background-position: 50% -200px;
+    }
+
+    &.icon_11 {
+      background-position: 50% -220px;
+    }
+
+    &.icon_12 {
+      background-position: 50% -240px;
+    }
+
+    &.icon_13 {
+      background-position: 50% -260px;
+    }
+
+    &.icon_14 {
+      background-position: 50% -280px;
+    }
+
+    &.icon_15 {
+      background-position: 50% -300px;
+    }
+
+    &.icon_16 {
+      background-position: 50% -320px;
+    }
+
+    &.icon_17 {
+      background-position: 50% -340px;
+    }
+
+    &.icon_18 {
+      background-position: 50% -360px;
+    }
+
+    &.icon_19 {
+      background-position: 50% -380px;
+    }
+
+    &.icon_20 {
+      background-position: 50% -400px;
+    }
+
+    &.icon_21 {
+      background-position: 50% -420px;
+    }
+
+    &.icon_22 {
+      background-position: 50% -440px;
+    }
+
+    &.icon_23 {
+      background-position: 50% -460px;
+    }
+
+    &.icon_24 {
+      background-position: 50% -480px;
+    }
+
+    &.icon_25 {
+      background-position: 50% -500px;
+    }
+
+    &.icon_26 {
+      background-position: 50% -520px;
+    }
+
+    &.icon_27 {
+      background-position: 50% -540px;
+    }
+  }
+}
+
+.link_block {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.no-data {
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background-color: #fff;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  height: auto;
+}
+
+.mr10 {
+  margin-right: 10px;
+}
+
+.p-r {
+  position: relative;
+}
+
+.app-footer {
+  line-height: 58px;
+  color: #fff;
+  font-size: 14px;
+  background: #555;
+  text-align: center;
+  min-width: 1000px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.wp100 {
+  width: 100%;
+}
+
+.hp100 {
+  height: 100%;
+}
+
+.ant-back-top {
+  right: 90px;
+  bottom: 80px;
+}
+
+.white_nowrap {
+  white-space: nowrap;
+}
+// 页面头部用户的下拉列表选中后，颜色保持不变
+
+.ant-dropdown-menu-item-selected > .top-normal-selected {
+  color: rgba(0, 0, 0, 0.65);
+  background-color: #fff;
+}
+
+.ant-dropdown-menu-item-selected.ant-dropdown-menu-item-active > .top-normal-selected {
+  background-color: #fcf0ee;
+}
+
+.block_hw100 {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.ant-message {
+  font-size: 16px;
+
+  .ant-message-notice-content {
+    padding: 12px 28px;
+
+    .anticon {
+      font-size: 18px;
+    }
+  }
+}
+
+.cur_pointer {
+  cursor: pointer;
+}
+
+.ant-affix {
+  z-index: 1000;
+}

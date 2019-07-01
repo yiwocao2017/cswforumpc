@@ -1,0 +1,40 @@
+.top-menu-wrap {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+
+    .top-menu-cont {
+        &.ant-menu-horizontal {
+            width: 100%;
+            line-height: 60px;
+            border-bottom: 2px solid #db4528;
+            color: #323232;
+            font-size: 16px;
+
+            .ant-menu-item-selected {
+                color: #fff;
+                background: #db4528;
+            }
+
+            .ant-menu-item-active {
+                // color: #fff;
+                // background: #d64023;
+                border-bottom: 2px solid transparent;
+            }
+        }
+    }
+
+    .old-website {
+        padding-left: 10px;
+        font-size: 12px;
+        color: #999;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

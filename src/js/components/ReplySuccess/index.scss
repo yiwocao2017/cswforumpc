@@ -1,0 +1,27 @@
+.reply-success-wrap {
+    .reply-success-cont {
+        background: url("../../../images/reply-suc.png") no-repeat;
+        display: inline-block;
+        color: #fff;
+        font-size: 12px;
+        position: fixed;
+        width: 246px;
+        height: 53px;
+        line-height: 48px;
+        text-align: center;
+        top: 30%;
+        margin-top: -26.5px;
+        left: 50%;
+        margin-left: -123px;
+        opacity: 0;
+        transition: opacity 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+        &.active {
+            opacity: 1;
+        }
+
+        span {
+            font-size: 14px;
+        }
+    }
+}

@@ -1,0 +1,140 @@
+.write-container1 {
+    margin-top: 20px;
+
+    h1 {
+        font-size: 16px;
+        color: #db4528;
+        border-bottom: 2px solid #db4528;
+        margin-bottom: 0;
+        padding-bottom: 10px;
+    }
+
+    .W_layer_arrow {
+        .W_arrow_bor_t {
+            position: absolute;
+            overflow: hidden;
+            display: block;
+            top: -14px;
+            left: 81px;
+
+            &.face-arrow {
+                left: 10px;
+            }
+
+            &.at-user-arrow {
+                left: 80px;
+            }
+
+            .S_line3 {
+                border-color: transparent transparent #ccc transparent;
+            }
+
+            .S_bg2_br {
+                border-color: transparent transparent #fff transparent;
+                margin: 1px 0 0 -14px;
+            }
+
+            .S_bg2_br,
+            .S_line3 {
+                display: inline-block;
+                width: 0;
+                height: 0;
+                border-width: 7px;
+                border-style: solid;
+                overflow: hidden;
+                font-size: 0;
+                line-height: 0;
+                vertical-align: top;
+            }
+        }
+    }
+
+    .ant-pagination {
+        text-align: right;
+        margin-top: 10px;
+
+        .ant-pagination-next,
+        .ant-pagination-prev {
+            display: none;
+            min-width: 18px;
+            height: 18px;
+            line-height: 18px;
+
+            a:after {
+                height: 16px;
+                line-height: 17px;
+            }
+        }
+
+        .ant-pagination-item {
+            min-width: 18px;
+            height: 18px;
+            line-height: 18px;
+        }
+    }
+
+    .write-close-btn {
+        cursor: pointer;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        border: 0;
+        background: transparent;
+        position: absolute;
+        right: 6px;
+        top: 6px;
+        z-index: 10;
+        font-weight: 700;
+        line-height: 1;
+        text-decoration: none;
+        transition: color 0.3s ease;
+        color: rgba(0, 0, 0, 0.43);
+        outline: 0;
+
+        &.face-close-btn {
+            right: 4px;
+            top: 4px;
+        }
+    }
+
+    .write-cont {
+        margin-bottom: 20px;
+
+        .ant-input {
+            border-radius: 0;
+        }
+
+        .ant-form-item {
+            margin-bottom: 0;
+        }
+
+        .write-bottom {
+            height: 28px;
+            line-height: 28px;
+            background: #f7f7f7;
+
+            .ant-btn {
+                border-radius: 0;
+                padding: 4px 30px;
+            }
+        }
+
+        .write-icon {
+            padding: 0 10px 0 30px;
+            cursor: pointer;
+        }
+
+        .emoji-icon {
+            background: url("../../../../images/emoji.png") no-repeat 10px center;
+            background-size: 14px;
+        }
+
+        .at-icon {
+            background: url("../../../../images/at.png") no-repeat 10px center;
+            background-size: 14px;
+        }
+
+        .anticon.anticon-plus {
+            font-size: 30px;
+        }
+    }
+}

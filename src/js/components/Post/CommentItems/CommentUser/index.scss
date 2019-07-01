@@ -1,0 +1,33 @@
+.comment-user-wrap {
+    width: 167px;
+    padding: 16px;
+    font-size: 14px;
+    color: #323232;
+
+    .c-user-nickname {
+        text-align: center;
+        color: #323232;
+        font-size: 14px;
+        padding-bottom: 12px;
+    }
+
+    .c-user-avatar {
+        width: 100%;
+        display: block;
+        padding: 4px;
+        border: 1px solid #f1dbdb;
+        overflow: hidden;
+        text-align: center;
+        line-height: 0;
+
+        img {
+            width: 124px;
+            height: 124px;
+        }
+    }
+
+    .c-user-btn-wrap {
+        margin-top: 10px;
+        text-align: center;
+    }
+}

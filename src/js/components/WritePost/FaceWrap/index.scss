@@ -1,0 +1,32 @@
+.write-face-wrap {
+    width: 245px;
+    display: inline-block;
+    padding: 17px 20px 18px;
+    position: relative;
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 20px 1px rgba(0,0,0,0.2);
+
+    .face-page {
+        display: none;
+
+        &.show {
+            display: block;
+        }
+
+        .face-item {
+            float: left;
+            width: 30px;
+            text-align: center;
+            padding: 4px 0 0;
+            cursor: pointer;
+            margin: -1px 0 0 -1px;
+            border: 1px solid #e8e8e8;
+
+            &:hover {
+                background: rgba(0,0,0,.2);
+            }
+        }
+    }
+}

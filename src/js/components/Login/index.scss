@@ -1,0 +1,57 @@
+.login {
+    padding-bottom: 88px;
+    margin: 75px auto 0;
+
+    .login-left {
+        background: url("../../../images/login-left.png") no-repeat;
+        width: 426px;
+        height: 320px;
+        float: left;
+        margin-top: 27px;
+    }
+
+    .login-right {
+        float: left;
+        width: 360px;
+        height: 350px;
+        border: 2px solid #d23e3e;
+        margin-left: 106px;
+    }
+
+    .login-right-name {
+        margin: 30px auto;
+        font-size: 18px;
+        font-family: "微软雅黑";
+        color: #d23e3e;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .ant-row {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .login-form-button {
+        width: 300px;
+        margin: 15px auto;
+    }
+
+    .login-message {
+        text-align: center;
+    }
+
+    .login-form-forgot {
+        color: #d23e3e;
+        float: right;
+    }
+
+    .login-regin {
+        color: #d23e3e;
+    }
+
+    .ant-btn-primary {
+        background-color: #d23e3e;
+        border-color: #d23e3e;
+    }
+}

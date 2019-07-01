@@ -1,0 +1,75 @@
+.post-container {
+    > .ant-breadcrumb {
+        padding: 20px 0;
+    }
+
+    > .ant-btn {
+        margin-bottom: 30px;
+    }
+
+    .post-wrap {
+        .post-header {
+            border: 1px solid #f1dbdb;
+            border-top: 2px solid #db4528;
+            background: #fff7f7;
+
+            .p-header-l {
+                width: 82px;
+                height: 50px;
+                text-align: center;
+                font-size: 14px;
+                color: #323232;
+
+                &.p-header-ll {
+                    border-right: 1px solid #f1dbdb;
+                    width: 84px;
+                }
+
+                .p-header-l-t1 {
+                    padding-top: 7px;
+                }
+
+                .p-header-l-t2 {
+                    color: #666;
+                    padding-top: 6px;
+                }
+            }
+
+            .p-header-border {
+                width: 2px;
+                height: 40px;
+                margin-top: 5px;
+                background: #f1dbdb;
+            }
+
+            .p-header-title {
+                width: 830px;
+                height: 50px;
+                padding-left: 20px;
+                font-size: 16px;
+                color: #db4528;
+
+                &.v-middle {
+                    &:before {
+                        content: "";
+                        display: inline-block;
+                        width: 0;
+                        height: 100%;
+                        vertical-align: middle;
+                    }
+
+                    span {
+                        display: inline-block;
+                        vertical-align: middle;
+                        word-break: break-word;
+                        line-height: 1.2;
+                    }
+                }
+            }
+        }
+
+        .post-cont {
+            margin-bottom: 20px;
+        }
+    }
+}

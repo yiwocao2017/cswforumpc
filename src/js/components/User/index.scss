@@ -1,0 +1,55 @@
+.user-container {
+    .ant-table {
+        color: #323232;
+
+        .user-post-title {
+            color: #323232;
+            font-size: 14px;
+            word-break: break-word;
+            line-height: 1.4;
+        }
+
+        .ant-table-thead {
+            tr th {
+                white-space: nowrap;
+            }
+        }
+    }
+
+    > .ant-breadcrumb {
+        padding: 20px 0;
+    }
+
+    > .ant-btn {
+        margin-bottom: 30px;
+    }
+
+    tbody tr {
+        cursor: pointer;
+    }
+
+    .user-big-primary {
+        font-size: 18px;
+        color: #db4528;
+        margin: 50px 0 40px;
+    }
+
+    .deleteWrap {
+        white-space: nowrap;
+
+        .deleteIcon {
+            vertical-align: text-top;
+            margin-left: 20px;
+        }
+    }
+
+    .title-icon {
+        vertical-align: text-top;
+        margin-right: 10px;
+
+        &.jing-icon {
+            width: 20px;
+            margin-top: -0.5px;
+        }
+    }
+}
